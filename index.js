@@ -93,7 +93,7 @@ let id = setInterval(() => {
     timer.style["background-color"] = "grey";
     return;
   }
-}, 8000);
+}, 3000);
 
 const onCellClick = (e) => {
   if (!numbers[e.target.id.split("")[0]][e.target.id.split("")[1]].selected) {
