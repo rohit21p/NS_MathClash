@@ -1,4 +1,4 @@
-let goal = 1 + Math.floor(Math.random() * 60);
+let goal = 9 + Math.floor(Math.random() * 60);
 document.querySelector(".goal").innerText = goal;
 
 let grid = document.getElementById("grid");
@@ -110,7 +110,7 @@ const onCellClick = (e) => {
     totalSum += -e.target.innerText;
   }
   if (totalSum === goal) {
-    goal = 1 + Math.floor(Math.random() * 60);
+    goal = 9 + Math.floor(Math.random() * 60);
     score += totalSelected;
     totalSelected = 0;
     totalSum = 0;
